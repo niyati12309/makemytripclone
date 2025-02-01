@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip - #1 Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+    <img class="logo" src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li>Flights</li>
+            <li>Hotels</li>
+            <li>Homestays</li>
+            <li>Holiday Packages</li>
+            <li>Trains</li>
+            <li>Buses</li>
+        </ul>
+    </nav>
+    </div>
+    <header class="hero">
+        <div class="search-box">
+            <div class="trip-type">
+                <label><input type="radio" name="trip" checked> One Way</label>
+                <label><input type="radio" name="trip"> Round Trip</label>
+                <label><input type="radio" name="trip"> Multi-City</label>
+            </div>
+            
+            <div class="search-fields">
+                <select>
+                    <option value="" disabled selected>From</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+            
+                <select>
+                    <option value="" disabled selected>To</option>
+                    <option value="Raipur">Raipur</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select>
+            
+                <input type="date">
+                <button class="search-btn">SEARCH</button>
+            </div>
+            
+            <div class="special-fares">
+                <button class="active">Regular</button>
+                <button>Student</button>
+                <button>Senior Citizen</button>
+                <button>Armed Forces</button>
+                <button>Doctor & Nurses</button>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
